@@ -10,4 +10,4 @@ Here's a quick check list to check before contributing.
 
 # License
 
-By contributing to Nuclide, you agree that your contributions will be licensed under the license outlined in the LICENSE file in the same directory as this file.
+By contributing to NodeMC, you agree that your contributions will be licensed under the license outlined in the LICENSE file in the same directory as this file.

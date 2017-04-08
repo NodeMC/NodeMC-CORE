@@ -10,7 +10,7 @@ module.exports = () => {
     config = require(path.join(cpath, "config.json"));
   } catch(e) {
     // using example config, this is ok.
-    config = require(path.join(cpath, "config.example.json"));
+    config = require(path.join(cpath, "config.example.js"));
   }
 
   return config;

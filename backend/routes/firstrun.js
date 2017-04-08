@@ -46,7 +46,7 @@ module.exports = (Router, server) => {
             port: parseInt(req.body.nmc_port, 10),
             logDirectory: "./nodemc/logs"
           },
-          dashboard: require("../../config/config.example.json").dashboard,
+          dashboard: require("../../config/config.example.js").dashboard,
           firstrun: false
         }
 
@@ -89,8 +89,8 @@ module.exports = (Router, server) => {
        * Save the Configuration
        **/
       (next) => {
-        details = JSON.stringify(details, null, 1);
-        fs.writeFile("./config/config.json", details, function(err) {
+        details = `module.exports = ${JSON.stringify(details, null, 1)}`;
+        fs.writeFile("./config/config.js", details, function(err) {
           if (err) {
             return next(err);
           }

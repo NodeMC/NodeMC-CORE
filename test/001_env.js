@@ -8,7 +8,7 @@ const fs     = require("fs"),
       path   = require("path"),
       mkdirp = require("mkdirp");
 
-const jar  = require("../lib/serverjar.js");
+const jar  = require("../lib/wrapper/serverjar.js");
 
 const config     = require("./helpers/config.js")();
 

@@ -1,10 +1,22 @@
-tmp/
+tmp
+
+# Configuration
 config/config.json
+config/config.js
 config/config.production.json
-node_modules/
-build/
-nmc_logs/
-logs/
+config/config.production.js
+
+# Build / Modules
+node_modules
+build
+nmc_logs
+logs
+
+# OS Files
 desktop.ini
-minecraft/
+.DS_Store
+
+minecraft
+
+# Editor FIles
 jsconfig.json

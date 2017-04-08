@@ -1,8 +1,15 @@
-# CORE
+<p align="center"><img src="https://avatars0.githubusercontent.com/u/17482389?v=3&s=150" /></p>
 
-[![Build Status](http://ci.nodemc.space/buildStatus/icon?job=NodeMC)](http://nodemc.space:8080/job/NodeMC/) [![Gitter](https://img.shields.io/badge/slack-community-brightgreen.svg)](https://nodemc.space/slack/)
+<p align="center">
+  <a href="http://nodemc.space:8080/job/NodeMC/"><img src="https://img.shields.io/badge/build-broken-red.svg" alt="Build Status" /></a>
+  <a href="https://nodemc.space/slack"><img src="https://img.shields.io/badge/slack-community-brightgreen.svg" alt="Slack" /></a>
+  <img src="https://img.shields.io/badge/license-GPL3-brightgreen.svg" alt="License" />
+</p>
 
-## About
+<p align="center">NodeMC is a Minecraft hosting solution, and API provider, written in Node.js and powered by open-source software</p>
+
+
+## Helpful Links
 
 [Official Documentation](https://nodemc.space/docs)
 
@@ -10,44 +17,29 @@
 
 [My Patreon](https://www.patreon.com/gmemstr?ty=h)
 
-NodeMC CORE is the core application for NodeMC. It is an API wrapper
-for Minecraft servers that developers can use to build dashboards 
-and apps around using whatever frameworks and languages they choose. 
-
-It is written in Node.js for utmost speed and reliability, as well
-as the wealth of npm packages that are used to expand the functionality
-well beyond traditional dashboards abilities.
-
 ## Requirements
 
-- [Node.js](https://nodejs.org/en/) >= 5.7.0
+- [Node.js](https://nodejs.org/en/) >= 7.0.0
 
-- [npm](https://www.npmjs.com/) >= 3.6.0
+- [npm](https://www.npmjs.com/)
 
 - [Java JRE](https://www.java.com/en/) >= 1.7.0
 
-### (Optional) Building Requirements
-
-- [nexe](https://jaredallard.me/nexe/) >= 1.1.0
-    - Linux / Mac / BSD / Windows
-    - Python 2.6 or 2.7 (use --python if not in PATH)
-    - Windows: Visual Studio 2010+
-    
 ## Running
 
-Running NodeMC is easy. 
+Running NodeMC is easy.
 
-```
+```bash
 git clone https://github.com/NodeMC/CORE.git NodeMC/
 
 cd NodeMC/
 
-npm install
+npm install # yarn install
 
 node server.js
 ```
 
-Then navigate to http://localhost:3000 and go through the setup processs.
+Then navigate to http://localhost:3000 and go through the setup process.
 
 ## Contributing
 
@@ -59,33 +51,7 @@ and for his continued support of NodeMC. :thumbsup:
 [Jared Allard](https://github.com/jaredallard) for his immense contributions of rewriting NodeMC
 using ES6 sepcifications. :heart:
 
-I welcome contributions from other developers, however there are a few
-things you should keep in mind when making a pull request.
-
-First things first, pull requests will never be accepted to the master branch
-unless there is an important security or performance patch. Otherwise, they will be
-merged to whichever is the newest upcoming version of NodeMC (v7).
-
-Second, if you are considering a major rewrite of a particular component of NodeMC,
-be sure to run it by me in the Gitter (@gmemstr) so I can be aware of your proposed changes.
-
-Third, please make sure you follow the `.eslintrc` so that your code style is the same. Pull requests that do *not* pass
-the test to check this will *NOT* be accepted.
-
-Lastly, please try to use a node.js org commit style; `component: changes`. i.e `readme: update with new rules`.
-
-## Building
-
-TL;DR - If you modify NodeMC, you need to mark your code and/or binary as such.
-
-> For the developers' and authors' protection, the GPL clearly explains 
-that there is no warranty for this free software.  For both users' and
-authors' sake, the GPL requires that modified versions be marked as
-changed, so that their problems will not be attributed erroneously to
-authors of previous versions.
-
-I use [nexe](https://github.com/jaredallard/nexe) for the builds of NodeMC. I recommend it - version 2.0.0
-should be available around the time of this branch being merged upstream.
+Contributions from other developers are welcome, check out [CONTRIBUTING.md](https://github.com/nodemc/core/tree/v6-optimize/.github/CONTRIBUTING.md) before you submit a pull request.
 
 ## Credits
 

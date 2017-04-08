@@ -1,0 +1,15 @@
+{
+    "name": "Sample Plugin",
+    "id": "nodemc-sample",
+    "version": "1.0.0",
+    "target": "2.0.x",
+    "desc": "Sample Plugin for NodeMC (Plugin API 2.0.0)",
+    "entryPoint": "./plugin.js",
+    "comments": [
+        "These won't get read by NodeMC.",
+        "You can include instructions for use, credits or whatever else you want here.",
+        "For example:",
+        "Credits: Gabriel Simmer (@gmemstr) for NodeMC itself, Jared Allard (@jaredallard) for the major rewrites and Mathew Da Costa (@md678685) for work on the plugin system",
+        "Instructions: Drop this in plugins/ and NodeMC will automatically load the plugin."
+    ]
+}

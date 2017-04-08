@@ -1,5 +1,5 @@
 function getApiKey() {
-    $.get("/v1/firstrun/apikey", function(data){
+    $.get("/v2/firstrun/apikey", function(data){
        $("#key").val(data);
        localStorage.setItem("apikey", data);
     });
@@ -49,7 +49,7 @@ function showinfo() {
 
 function submitinfo() {
      $(".loader").show();
-    $.post("/v1/firstrun/setup", {
+    $.post("/v2/firstrun/setup", {
             nmc_port: localStorage.getItem("nodemc_port"),
             mc_port: localStorage.getItem("minecraft_port"),
             memory: localStorage.getItem("memory"),
