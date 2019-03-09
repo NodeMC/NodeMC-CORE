@@ -26,7 +26,7 @@
     "chai": "^4.1.2",
     "eslint": "^4.7.2",
     "mocha-eslint": "^4.1.0",
-    "supertest": "^3.0.0"
+    "supertest": "^4.0.0"
   },
   "scripts": {
     "start": "yarn global add nodemon; nodemon server.js",
