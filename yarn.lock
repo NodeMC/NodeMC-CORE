@@ -672,9 +672,10 @@ file-entry-cache@^2.0.0:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
 
-file-stream-rotator@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/file-stream-rotator/-/file-stream-rotator-0.2.1.tgz#0d6fea1a9a7aba25a87cfd31b6e269e44e8f0af2"
+file-stream-rotator@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/file-stream-rotator/-/file-stream-rotator-0.5.0.tgz#a50959f8c9cb22b8f634ca75d907ba355c1bcb46"
+  integrity sha512-4I2PzegraLQFGA7VU5GzD2iu3vFMtR57kgUhpMPs9gu06hCj3+zfNLc+BS4vs+opbKiVNtAMkMZrW3bH2idZ/w==
   dependencies:
     moment "^2.11.2"
 
