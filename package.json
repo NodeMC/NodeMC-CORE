@@ -25,7 +25,7 @@
     "babel-eslint": "^8.2.2",
     "chai": "^4.1.2",
     "eslint": "^4.7.2",
-    "mocha-eslint": "^4.1.0",
+    "mocha-eslint": "^6.0.0",
     "supertest": "^3.0.0"
   },
   "scripts": {
